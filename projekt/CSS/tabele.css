@@ -1,0 +1,38 @@
+table{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 94%;
+    margin: 2%;
+    border: 1pt antiquewhite solid;
+}
+caption{
+    font-size:120%;
+    font-weight: bold;
+}
+tfoot, thead{
+    color: #f7786b;
+    background-color: antiquewhite;
+    font-size: 110%;
+    padding: 5pt;
+}
+td,th{
+    border: 1pt solid #f7786b;
+}
+tfoot a{
+    color: #f7786b;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f4e1d2;
+}
+@media screen and (max-width: 760px)
+{
+
+    caption{
+        font-size: 100%;
+    }
+    tfoot, thead,tbody
+    {
+    font-size: 65%;
+    }
+}
